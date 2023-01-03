@@ -8,9 +8,9 @@
 ![3](https://user-images.githubusercontent.com/76240891/210322178-91492904-fab5-4fee-bc62-dd376cf5b902.png)
 
 
-**Flipkart Grid 4.0 Challenge**
+## **Flipkart Grid 4.0 Challenge**
 
-Problem Statement 3: Extract Trends from social media data
+### Problem Statement 3: Extract Trends from social media data
 
 As part of this challenge, teams are expected to identify trends from social media data; From all the
 products available on Flipkart identify trending products, utilize all signals available (ex. posts, sessions,
