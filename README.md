@@ -1,4 +1,4 @@
-**#Extracting Trends From Social Media**
+**# Extracting Trends From Social Media**
 
 ![1](https://user-images.githubusercontent.com/76240891/210323111-4603d248-e3f4-4328-8ee0-9977b84950c3.png)
 
