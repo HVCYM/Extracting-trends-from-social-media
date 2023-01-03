@@ -24,11 +24,6 @@ function Header() {
         <a href="/electronics">
           <div className="header-category">Electronics</div>
         </a>
-        <form>
-          <div className="header-category">
-            <button>Update</button>
-          </div>
-        </form>
       </div>
 
       <a href="/about">
