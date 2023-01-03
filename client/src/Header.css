@@ -1,0 +1,82 @@
+*
+{
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 0;
+}
+.header
+{
+    display: flex;  z-index: 100;
+    position: sticky; top: 0;
+    height: 5rem;
+    background-color: #6f0043;
+    color: white;
+    align-items: center;
+    
+    
+}
+
+.home-icon
+{
+   font-size: 2.5rem !important;
+   margin-left: 1rem;
+   border-radius: 0.3rem;
+   background-color: rgb(122, 37, 70);
+}
+
+.home-icon:hover
+{
+    box-shadow: 0.1rem 0.1rem 1rem 0.5rem rgb(50, 5, 5);
+    cursor: pointer;
+    transform: scale(1.1,1.1);  
+}
+.home-icon:active
+{
+    background-color: #7d2c5c; 
+}
+.header-search
+{
+    display: flex; flex: 1;
+    padding: rem;
+    justify-content: space-around; 
+}
+
+.header-login
+{
+    align-items: center;
+    display: flex;
+    margin-right: 3.5rem;
+    padding:0.2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.3rem;
+    font-size: 1.5rem;
+    background-color: rgb(122, 37, 70);
+}
+.header-login:hover
+{
+    box-shadow: 0.1rem 0.1rem 1rem 0.5rem rgb(50, 5, 5);
+    transform: scale(1.1,1.1);  
+}
+.login-icon
+{
+    margin-left: 0.2rem;
+    font-size: larger   !important;
+}
+.header-category
+{
+    justify-content: center; font-size: 1.4rem; background-color: rgb(122, 37, 70);
+    height: 1rem; padding: 1.5rem; padding-top: 0.5rem;
+    border-radius: 0.3rem; z-index: 100;
+}
+.header-category:hover
+{
+    box-shadow: 0.1rem 0.1rem 1rem 0.5rem rgb(50, 5, 5);
+    transform: scale(1.1,1.1);  
+    cursor: pointer;  
+}
+.header-category:active
+{
+    background-color: #7d2c5c;    
+}

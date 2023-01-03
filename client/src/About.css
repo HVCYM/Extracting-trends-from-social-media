@@ -1,0 +1,22 @@
+.about
+{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.about-info
+{
+    min-height: 80vh;   display: flex;
+    width: 60vw;
+    background-color: rgb(223, 218, 218);
+    border-radius: 0.2rem;
+    margin: 1rem;   padding: 2rem;
+    justify-content: center;
+}
+.about-info>p
+{
+    font-size: 1rem;max-width: 45vw;
+    color: black;   
+    font-family: 'sans-serif';
+    
+}

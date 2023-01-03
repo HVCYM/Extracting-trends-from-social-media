@@ -1,0 +1,75 @@
+.product
+{
+    display: flex; flex-direction: column;
+    padding: 1rem;
+    margin: 0.5rem;
+    height: 35vh;
+    width: 28vw;
+    border-radius: 0.1rem;
+    background-color: white;
+}
+.product-div1
+{
+    display: flex;
+}
+.product-div2
+{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.product-details
+{
+    padding-left: 1rem; 
+    max-width: 15vw; 
+}
+.product-details>p
+{
+    margin-top: 0.5rem; max-height: 5rem; display: flex; align-items: center;   
+    z-index: 0;
+}
+.p1
+{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.product-image
+{
+    height:  20vh;
+    object-fit: contain;
+}
+.flipkart-button
+{
+    padding: 0.3rem;
+    width: 10rem;
+    border-radius: 0.5rem;
+    background-color: #2874f0;
+    color: white;
+    position: relative;
+    cursor: pointer;
+} 
+.flipkart-button:hover
+{
+    background-color: #4d91ff;
+}
+.flipkart-button:active
+{
+    background-color: #2874f0;
+}
+.product-category
+{
+    margin-bottom: 1rem;
+    justify-content: center;
+    font-size:1rem;
+    font-weight: 800;
+}
+.product-rank>h1
+{
+    color: black;
+    padding-right: 0.5rem;
+}
+.product-desc
+{
+    color: rgb(163, 8, 94);
+    font-size: 1.15rem;
+}

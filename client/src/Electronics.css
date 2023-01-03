@@ -1,0 +1,30 @@
+.electronics
+{
+    display: flex; flex: 1; flex-direction: column;
+    margin: 0.1rem;
+    border-radius: 0.3rem;
+    background-color: rgb(232, 232, 232);
+}
+.electronics-title
+{
+    display: flex; 
+    justify-content: left;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 1rem;  padding-left: 5rem;
+    background-color: rgb(196, 164, 164);
+    border-radius: 0.1rem;
+    position: sticky; top: 5rem; z-index: 1;
+}
+.electronics-title:hover
+{
+    background-color: rgb(189, 141, 141);
+}
+
+.electronics-content
+{
+    display: grid; grid-template-columns:  auto auto auto; row-gap: 1rem; 
+    margin: 0.1rem;
+    justify-content: center;
+
+}

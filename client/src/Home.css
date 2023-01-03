@@ -1,0 +1,21 @@
+.home
+{
+    display: flex; flex-direction: column;
+    background-color: rgb(232, 232, 232);
+    padding: 0.2rem;
+}
+.home-line1
+{
+    font-size: 2rem; font-family: 'monospace','Courier New', 'Courier' ;
+    font-weight: bold;
+    background-color: rgb(201, 192, 192);
+    padding: 1rem;
+    border-radius: 0.2rem;
+    position: sticky; top: 5rem; opacity: 100; z-index: 1;
+}
+.home-content
+{
+    display: grid; grid-template-columns:  auto auto auto; row-gap: 1rem; 
+    margin: 0.1rem;
+    justify-content: center;
+}
