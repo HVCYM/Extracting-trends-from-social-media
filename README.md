@@ -1,6 +1,7 @@
  Extracting Trends From Social Media
 
-[1](https://user-images.githubusercontent.com/76240891/210322136-b87428f3-f28f-4c91-8e3a-53884ed8d08a.png)
+![1](https://user-images.githubusercontent.com/76240891/210323111-4603d248-e3f4-4328-8ee0-9977b84950c3.png)
+
 
 ![2](https://user-images.githubusercontent.com/76240891/210322170-28c823d7-456d-4815-a1d3-09a40a65a281.png)
 
