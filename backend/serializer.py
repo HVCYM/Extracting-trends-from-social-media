@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Card
+from .models import Card,HashtagList,Uploadfile
 
 class CardSerializer(serializers.ModelSerializer):
     class Meta:
@@ -8,3 +8,12 @@ class CardSerializer(serializers.ModelSerializer):
 
         # def create(self, validated_data):
         #     return Card.objects.create(**validated_data)
+class HashtagSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = HashtagList
+        fields=["item_id","hash_tag"]
+
+class UploadfileSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Uploadfile
+        fields=["file"]

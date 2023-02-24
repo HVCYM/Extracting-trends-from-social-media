@@ -1,9 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./Header.css";
 import HomeSharpIcon from "@mui/icons-material/HomeSharp";
-import SearchIcon from "@mui/icons-material/Search";
-import InputIcon from "@mui/icons-material/Input";
-// import React, { useState, useEffect } from "react";
 
 function Header() {
   // useEffect(() => {
@@ -25,7 +22,11 @@ function Header() {
           <div className="header-category">Electronics</div>
         </a>
       </div>
-
+      <a href="/data_post">
+        <div className="header-login">
+          <p>Add Data</p>
+        </div>
+      </a>
       <a href="/about">
         <div className="header-login">
           <p>About Us</p>

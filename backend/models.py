@@ -1,4 +1,15 @@
 from django.db import models
+# hash_tag : list of strings ------ one to many relation
+class HashtagList(models.Model):
+    item_id= models.IntegerField()
+    hash_tag=models.CharField(max_length=500)
+
+    def __str__(self):
+        return self.hash_tag
+
+class Uploadfile(models.Model):
+    file= models.FileField()
+
 
 class Card(models.Model):
     Category= models.CharField(max_length=500)
@@ -14,10 +25,6 @@ class Card(models.Model):
     Flipkart_url=models.URLField(max_length=5000,blank=True)
     product_image_link=models.URLField(blank=True)
     product_title=models.CharField(max_length=500)
+    hashtaglist=models.ForeignKey(HashtagList,on_delete=models.CASCADE,default="",blank=True,null=True)
 
 
-# hash_tag : list of strings ------ one to many relation
-# class Hash_tag_list(models.Model):
-#     item_id= models.IntegerField()
-#     hash_tag=models.CharField(max_length=500)
-#     tag=models.ForeignKey(Card,on_delete=models.CASCADE)
