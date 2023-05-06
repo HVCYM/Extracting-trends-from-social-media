@@ -68,7 +68,7 @@ function App() {
             <>
               <Header />
               <Data />
-              {/* <Footer /> */}
+              <Footer />
             </>
           }
         />

@@ -1,0 +1,50 @@
+.data-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(232, 232, 232);
+  padding: 0.2rem;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 1rem;
+}
+
+form > button {
+  /* grid-template-columns: 1fr; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-label {
+  font-size: 1rem;
+  font-family: "monospace", "Courier New", "Courier";
+  font-weight: bold;
+  background-color: rgb(201, 192, 192);
+  padding: 1rem;
+  border-radius: 0.2rem;
+}
+
+.flipkart-button {
+  padding: 0.3rem;
+  width: 10rem;
+  border-radius: 0.5rem;
+  background-color: #2874f0;
+  color: white;
+  position: relative;
+  left: 7rem;
+  cursor: pointer;
+}
+.upload-file > form > button {
+  position: static;
+}
+.flipkart-button:hover {
+  background-color: #4d91ff;
+}
+.flipkart-button:active {
+  background-color: #2874f0;
+}
